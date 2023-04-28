@@ -1,0 +1,127 @@
+body {
+    background: #f7e9dc;
+}
+
+.expense-wrapper {
+    /* border: 2px solid rgb(255, 0, 119); */
+    margin: 5px;
+}
+
+.expenses-section-wrapper {
+    background: white;
+    border-radius: 10px;
+    /* padding: 0 15px; */
+}
+
+.balance-section,
+.spending-chart-container,
+.expense-amount-container {
+    padding: 15px;
+}
+
+.balance-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(157, 88, 241);
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+    /* padding: 15px; */
+}
+
+.user-balance-container {
+    /* border: 1px solid olive; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-balance-container h5 {
+    font-size: 0.8rem;
+    color: rgb(232, 232, 232);
+}
+.balance-amount {
+    font-size: 1.2rem;
+    color: white;
+}
+.image-container {
+    /* border: 1px solid purple; */
+    max-width: 50px;
+}
+.image-container img {
+    width: 100%;
+}
+/* -------------------- */
+
+.spending-chart-container {
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.spending-chart-container h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.days-container {
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-evenly;
+    gap: 10px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.graph-bar {
+    padding: 4px;
+    min-height: 150px;
+    border-radius: 5px;
+    background: teal;
+}
+
+/* ----------------- */
+.expense-amount-container {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.this-month-container h5 {
+    margin-bottom: 10px;
+}
+.this-month-container h5 {
+    color: rgb(65, 65, 65);
+    font-size: 0.8rem;
+}
+
+.expense-amount {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.expense-amount-last-month {
+    font-weight: bold;
+}
+
+.last-month-expense-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.expense-amount-last-month {
+    align-self: end;
+}
+
+.last-month-expense-container h5 {
+    color: rgb(112, 112, 112);
+    font-size: 0.8rem;
+}

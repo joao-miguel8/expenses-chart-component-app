@@ -10,35 +10,63 @@
         <title>Expenses chart component</title>
     </head>
     <main>
-        <div class="balance-section">
-            <div class="user-balance-container">
-                <h5>My balance</h5>
-                <span class="balance-amount"> $921.48 </span>
+        <section class="expense-wrapper">
+            <div class="balance-section">
+                <div class="user-balance-container">
+                    <h5>My balance</h5>
+                    <span class="balance-amount"> $921.48 </span>
+                </div>
+                <div class="image-container">
+                    <img src="../expenses-chart-component-app/images/logo.svg" alt="" />
+                </div>
             </div>
-            <div class="image-container">
-                <img src="" alt="" />
-            </div>
-        </div>
-        <div class="spending-chart-container">
-            <h3>Spending - Last 7 days</h3>
-            <ul class="days-container">
-                <div class="days">mon</div>
-                <div class="days">tue</div>
-                <div class="days">wed</div>
-                <div class="days">thu</div>
-                <div class="days">fri</div>
-                <div class="days">sat</div>
-                <div class="days">sun</div>
-            </ul>
-        </div>
-        <div class="expense-amount-container">
-            <h5>total this month</h5>
-            <span class="expense-amount"> $478.33 </span>
-            <div class="last-month-expense-container">
-                <span class="expense-amount-last-month">+2.4% </span>
-                <h5>from last month</h5>
-            </div>
-        </div>
+            <section class="expenses-section-wrapper">
+                <div class="spending-chart-container">
+                    <h3>Spending - Last 7 days</h3>
+
+                    <ul class="days-container">
+                        <li class="days">
+                            <div class="graph-bar"></div>
+                            mon
+                        </li>
+                        <li class="days">
+                            <div class="graph-bar"></div>
+                            tue
+                        </li>
+                        <li class="days">
+                            <div class="graph-bar"></div>
+                            wed
+                        </li>
+                        <li class="days">
+                            <div class="graph-bar"></div>
+                            thu
+                        </li>
+                        <li class="days">
+                            <div class="graph-bar"></div>
+                            fri
+                        </li>
+                        <li class="days">
+                            <div class="graph-bar"></div>
+                            sat
+                        </li>
+                        <li class="days">
+                            <div class="graph-bar"></div>
+                            sun
+                        </li>
+                    </ul>
+                </div>
+                <div class="expense-amount-container">
+                    <div class="this-month-container">
+                        <h5>total this month</h5>
+                        <span class="expense-amount"> $478.33 </span>
+                    </div>
+                    <div class="last-month-expense-container">
+                        <span class="expense-amount-last-month">+2.4% </span>
+                        <h5>from last month</h5>
+                    </div>
+                </div>
+            </section>
+        </section>
     </main>
     <body>
         <!-- <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.</div> -->
