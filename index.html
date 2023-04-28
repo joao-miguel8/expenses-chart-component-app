@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Expenses chart component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  My balance
-  $921.48
-
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="stylesheet" href="../expenses-chart-component-app/css/reset.css" />
+        <link rel="stylesheet" href="../expenses-chart-component-app/css/style.css" />
+        <script src="../expenses-chart-component-app/js/main.js"></script>
+        <title>Expenses chart component</title>
+    </head>
+    <main>
+        <div class="balance-section">
+            <div class="user-balance-container">
+                <h5>My balance</h5>
+                <span class="balance-amount"> $921.48 </span>
+            </div>
+            <div class="image-container">
+                <img src="" alt="" />
+            </div>
+        </div>
+        <div class="spending-chart-container">
+            <h3>Spending - Last 7 days</h3>
+            <ul class="days-container">
+                <div class="days">mon</div>
+                <div class="days">tue</div>
+                <div class="days">wed</div>
+                <div class="days">thu</div>
+                <div class="days">fri</div>
+                <div class="days">sat</div>
+                <div class="days">sun</div>
+            </ul>
+        </div>
+        <div class="expense-amount-container">
+            <h5>total this month</h5>
+            <span class="expense-amount"> $478.33 </span>
+            <div class="last-month-expense-container">
+                <span class="expense-amount-last-month">+2.4% </span>
+                <h5>from last month</h5>
+            </div>
+        </div>
+    </main>
+    <body>
+        <!-- <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.</div> -->
+    </body>
 </html>
