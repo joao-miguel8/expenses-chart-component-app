@@ -3,7 +3,7 @@ body {
 }
 
 .expense-wrapper {
-    /* border: 2px solid rgb(255, 0, 119); */
+   s /* border: 2px solid rgb(255, 0, 119); */
     margin: 5px;
 }
 
@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(157, 88, 241);
+    background: rgb(168, 55, 183);
     margin: 0 0 10px 0;
     border-radius: 10px;
     /* padding: 15px; */
